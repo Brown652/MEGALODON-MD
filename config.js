@@ -13,16 +13,16 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON-MD~",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~WxYT2bjZ#8yjzWex_vKoLVpVmgXv0yuh6oYBaxXFiDRpPxqTXiMo",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "50932920314",  // Owner's WhatsApp number
     
     OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "",           // Owner's name
     
-    DEV: process.env.DEV || "50948336180",                     // Developer's contact number
+    DEV: process.env.DEV || "50932920314",                     // Developer's contact number
     
     // ===== AUTO-RESPONSE SETTINGS =====
     
@@ -38,7 +38,7 @@ module.exports = {
 
     
     // ===== MEDIA & AUTOMATION =====
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "true",      // Auto-record voice notes?
     AUTO_TYPING: process.env.AUTO_TYPING || "false",   // Show typing indicator?
     MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/roubzi.jpg",  // Bot's "alive" image
 
@@ -59,7 +59,7 @@ module.exports = {
     
      ANTILINK: process.env.ANTILINK || "false",
     
-    ANTI_VV: process.env.ANTI_VV || "false",  
+    ANTI_VV: process.env.ANTI_VV || "true",  
     // Block view-once messages?
     DELETE_LINKS: process.env.DELETE_LINKS || "false",  
     // Auto-delete links?
